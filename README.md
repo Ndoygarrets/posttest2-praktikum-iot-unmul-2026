@@ -2,10 +2,10 @@
 
 Nama Anggota Kelompok
 
-Muhammad Ariando Ferdian 2309106086
-Robby Pratama 2309106113
-Ahmad Yani 2309106055
-Muhammad Asadin Nur 2309106061
+1. Muhammad Ariando Ferdian 2309106086
+2. Robby Pratama 2309106113
+3. Ahmad Yani 2309106055
+4. Muhammad Asadin Nur 2309106061
 
 Judul Studi kasus 
 Rancang Bangun Sistem Smart Home Multi-User Berbasis IoT dengan Peringatan Dini Kebocoran Gas Menggunakan ESP32 dan Telegram
