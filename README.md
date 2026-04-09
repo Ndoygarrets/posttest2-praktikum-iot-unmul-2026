@@ -14,10 +14,10 @@ DESKRIPSI
 Proyek ini adalah purwarupa (prototype) sistem Smart Home berbasis Internet of Things (IoT) yang dirancang untuk penggunaan kelompok (multi-user). Menggunakan mikrokontroler ESP32 dan antarmuka Telegram Bot, sistem ini mengintegrasikan fitur otomatisasi ruangan dan keamanan darurat secara praktis. Keunggulan utama dari proyek ini adalah penerapan Role-Based Access Control (RBAC), di mana setiap anggota hanya dapat mengontrol lampu kamar privasinya masing-masing, namun tetap berbagi akses untuk area publik (ruang tamu) dan pemantauan sensor. Selain itu, sistem ini dilengkapi dengan Early Warning System yang akan mengirimkan pesan darurat (broadcast) secara otomatis ke seluruh anggota jika sensor mendeteksi indikasi kebocoran gas yang melebihi batas aman.
 
 PEMBAGIAN TUGAS
-Muhammad Ariando Ferdian Mencoding Sistem dan Merakit Komponen
-AhmadYani Merakit Komponen dan membuat telegram
-Robby Pratama Menyiapkan dan membantu dalam apa saja komponen yang bisa dipakai lalu merakit juga dan pembuatan telegram
-Asadin Nur Membuat telegram lalu Pengecekan alur sistem koding dan rakitan
+1. Muhammad Ariando Ferdian Mencoding Sistem dan Merakit Komponen
+2. AhmadYani Merakit Komponen dan membuat telegram
+3. Robby Pratama Menyiapkan dan membantu dalam apa saja komponen yang bisa dipakai lalu merakit juga dan pembuatan telegram
+4. Asadin Nur Membuat telegram lalu Pengecekan alur sistem koding dan rakitan
 
 KOMPONEN YANG DIGUNAKAN
 1. ESPC3
