@@ -12,16 +12,11 @@ const char* password = "YakaliBro";
 #define BOT_TOKEN "8618799729:AAF0v9WQyqxbrWU8-LBS3_IaLqvt9p8fXHE" 
 
 // --- KONFIGURASI HAK AKSES (TELEGRAM ID) ---
-// Dapatkan User ID masing-masing anggota dari @userinfobot
-#define ID_MEMBER_A "5569342487"  // Ganti dengan ID Telegram Anggota A
-#define ID_MEMBER_B "5464650308"  // Ganti dengan ID Telegram Anggota B
-#define ID_MEMBER_C "8625380459"  // Ganti dengan ID Telegram Anggota C
+#define ID_MEMBER_A "5569342487"  
+#define ID_MEMBER_B "5464650308"  
+#define ID_MEMBER_C "8625380459"  
 #define ID_MEMBER_D "1339788081"
 
-
-// Dapatkan ID Grup (biasanya diawali tanda minus "-").
-// Caranya: Masukkan bot ke grup, ketik sesuatu, lalu cek API bot kamu.
-   
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
@@ -128,7 +123,7 @@ void handleNewMessages(int numNewMessages) {
       }
     }
 
-    // --- KONTROL LED D (Hanya untuk Member C) ---
+    // --- KONTROL LED D (Hanya untuk Member D) ---
     else if (text == "/ledD_on") {
       if (from_id == ID_MEMBER_D) {
         digitalWrite(LED_D_PIN, HIGH);
